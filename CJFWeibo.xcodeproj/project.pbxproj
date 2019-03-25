@@ -80,6 +80,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0019285D224852F8009C61C8 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 		00F9704B20617BB700AC4C9D = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +140,7 @@
 		00F9708F2063327B00AC4C9D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				0019285D224852F8009C61C8 /* Tools */,
 				00F97098206334F600AC4C9D /* Common */,
 				00F970972063346200AC4C9D /* OAuth */,
 				00F970962063344E00AC4C9D /* Newfeature */,
@@ -141,16 +149,8 @@
 				00F97093206333CC00AC4C9D /* Message */,
 				00F970922063339700AC4C9D /* Home */,
 				00F970912063338700AC4C9D /* Main */,
-				00F97090206332A800AC4C9D /* Tools */,
 			);
 			name = Classes;
-			sourceTree = "<group>";
-		};
-		00F97090206332A800AC4C9D /* Tools */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Tools;
 			sourceTree = "<group>";
 		};
 		00F970912063338700AC4C9D /* Main */ = {
