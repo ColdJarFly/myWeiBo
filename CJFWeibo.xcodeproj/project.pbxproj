@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00DE043E226CBEC30078AD66 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DE0432226CBEC30078AD66 /* HomeTableViewController.swift */; };
+		00DE043F226CBEC30078AD66 /* DiscoverTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DE0434226CBEC30078AD66 /* DiscoverTableViewController.swift */; };
+		00DE0440226CBEC30078AD66 /* MessageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DE0438226CBEC30078AD66 /* MessageTableViewController.swift */; };
+		00DE0441226CBEC30078AD66 /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DE043B226CBEC30078AD66 /* ProfileTableViewController.swift */; };
+		00DE0442226CBEC30078AD66 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DE043D226CBEC30078AD66 /* MainViewController.swift */; };
 		00F9705820617BB700AC4C9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F9705720617BB700AC4C9D /* AppDelegate.swift */; };
 		00F9705F20617BB700AC4C9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00F9705E20617BB700AC4C9D /* Assets.xcassets */; };
 		00F9706220617BB700AC4C9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00F9706020617BB700AC4C9D /* LaunchScreen.storyboard */; };
 		00F9706D20617BB700AC4C9D /* CJFWeiboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F9706C20617BB700AC4C9D /* CJFWeiboTests.swift */; };
 		00F9707820617BB700AC4C9D /* CJFWeiboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F9707720617BB700AC4C9D /* CJFWeiboUITests.swift */; };
-		00F97088206331DA00AC4C9D /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F97087206331DA00AC4C9D /* HomeTableViewController.swift */; };
-		00F9708A2063320900AC4C9D /* MessageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F970892063320900AC4C9D /* MessageTableViewController.swift */; };
-		00F9708C2063322E00AC4C9D /* DiscoverTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F9708B2063322E00AC4C9D /* DiscoverTableViewController.swift */; };
-		00F9708E2063323D00AC4C9D /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F9708D2063323D00AC4C9D /* ProfileTableViewController.swift */; };
-		00F9709A2063F2E300AC4C9D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F970992063F2E300AC4C9D /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00DE0432226CBEC30078AD66 /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		00DE0434226CBEC30078AD66 /* DiscoverTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverTableViewController.swift; sourceTree = "<group>"; };
+		00DE0438226CBEC30078AD66 /* MessageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageTableViewController.swift; sourceTree = "<group>"; };
+		00DE043B226CBEC30078AD66 /* ProfileTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
+		00DE043D226CBEC30078AD66 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		00F9705420617BB700AC4C9D /* CJFWeibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CJFWeibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00F9705720617BB700AC4C9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00F9705E20617BB700AC4C9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -48,11 +53,6 @@
 		00F9707320617BB700AC4C9D /* CJFWeiboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CJFWeiboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00F9707720617BB700AC4C9D /* CJFWeiboUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CJFWeiboUITests.swift; sourceTree = "<group>"; };
 		00F9707920617BB700AC4C9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00F97087206331DA00AC4C9D /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
-		00F970892063320900AC4C9D /* MessageTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTableViewController.swift; sourceTree = "<group>"; };
-		00F9708B2063322E00AC4C9D /* DiscoverTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverTableViewController.swift; sourceTree = "<group>"; };
-		00F9708D2063323D00AC4C9D /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
-		00F970992063F2E300AC4C9D /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +80,84 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0019285D224852F8009C61C8 /* Tools */ = {
+		00DE0430226CBEC30078AD66 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				00DE0443226CBEF30078AD66 /* Tools */,
+				00DE0431226CBEC30078AD66 /* Home */,
+				00DE0433226CBEC30078AD66 /* Discover */,
+				00DE0435226CBEC30078AD66 /* OAuth */,
+				00DE0436226CBEC30078AD66 /* Newfeature */,
+				00DE0437226CBEC30078AD66 /* Message */,
+				00DE0439226CBEC30078AD66 /* Common */,
+				00DE043A226CBEC30078AD66 /* Profile */,
+				00DE043C226CBEC30078AD66 /* Main */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		00DE0431226CBEC30078AD66 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				00DE0432226CBEC30078AD66 /* HomeTableViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		00DE0433226CBEC30078AD66 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				00DE0434226CBEC30078AD66 /* DiscoverTableViewController.swift */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		00DE0435226CBEC30078AD66 /* OAuth */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OAuth;
+			sourceTree = "<group>";
+		};
+		00DE0436226CBEC30078AD66 /* Newfeature */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Newfeature;
+			sourceTree = "<group>";
+		};
+		00DE0437226CBEC30078AD66 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				00DE0438226CBEC30078AD66 /* MessageTableViewController.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		00DE0439226CBEC30078AD66 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		00DE043A226CBEC30078AD66 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				00DE043B226CBEC30078AD66 /* ProfileTableViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		00DE043C226CBEC30078AD66 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				00DE043D226CBEC30078AD66 /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		00DE0443226CBEF30078AD66 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -110,7 +187,7 @@
 		00F9705620617BB700AC4C9D /* CJFWeibo */ = {
 			isa = PBXGroup;
 			children = (
-				00F9708F2063327B00AC4C9D /* Classes */,
+				00DE0430226CBEC30078AD66 /* Classes */,
 				00F9705720617BB700AC4C9D /* AppDelegate.swift */,
 				00F9705E20617BB700AC4C9D /* Assets.xcassets */,
 				00F9706020617BB700AC4C9D /* LaunchScreen.storyboard */,
@@ -135,83 +212,6 @@
 				00F9707920617BB700AC4C9D /* Info.plist */,
 			);
 			path = CJFWeiboUITests;
-			sourceTree = "<group>";
-		};
-		00F9708F2063327B00AC4C9D /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				0019285D224852F8009C61C8 /* Tools */,
-				00F97098206334F600AC4C9D /* Common */,
-				00F970972063346200AC4C9D /* OAuth */,
-				00F970962063344E00AC4C9D /* Newfeature */,
-				00F970952063342400AC4C9D /* Profile */,
-				00F970942063340700AC4C9D /* Discover */,
-				00F97093206333CC00AC4C9D /* Message */,
-				00F970922063339700AC4C9D /* Home */,
-				00F970912063338700AC4C9D /* Main */,
-			);
-			name = Classes;
-			sourceTree = "<group>";
-		};
-		00F970912063338700AC4C9D /* Main */ = {
-			isa = PBXGroup;
-			children = (
-				00F970992063F2E300AC4C9D /* MainViewController.swift */,
-			);
-			name = Main;
-			sourceTree = "<group>";
-		};
-		00F970922063339700AC4C9D /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				00F97087206331DA00AC4C9D /* HomeTableViewController.swift */,
-			);
-			name = Home;
-			sourceTree = "<group>";
-		};
-		00F97093206333CC00AC4C9D /* Message */ = {
-			isa = PBXGroup;
-			children = (
-				00F970892063320900AC4C9D /* MessageTableViewController.swift */,
-			);
-			name = Message;
-			sourceTree = "<group>";
-		};
-		00F970942063340700AC4C9D /* Discover */ = {
-			isa = PBXGroup;
-			children = (
-				00F9708B2063322E00AC4C9D /* DiscoverTableViewController.swift */,
-			);
-			name = Discover;
-			sourceTree = "<group>";
-		};
-		00F970952063342400AC4C9D /* Profile */ = {
-			isa = PBXGroup;
-			children = (
-				00F9708D2063323D00AC4C9D /* ProfileTableViewController.swift */,
-			);
-			name = Profile;
-			sourceTree = "<group>";
-		};
-		00F970962063344E00AC4C9D /* Newfeature */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Newfeature;
-			sourceTree = "<group>";
-		};
-		00F970972063346200AC4C9D /* OAuth */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = OAuth;
-			sourceTree = "<group>";
-		};
-		00F97098206334F600AC4C9D /* Common */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,20 +277,23 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "ColdJarFlying Inc";
 				TargetAttributes = {
 					00F9705320617BB700AC4C9D = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 					};
 					00F9706720617BB700AC4C9D = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 00F9705320617BB700AC4C9D;
 					};
 					00F9707220617BB700AC4C9D = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 00F9705320617BB700AC4C9D;
 					};
@@ -347,12 +350,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00F9708E2063323D00AC4C9D /* ProfileTableViewController.swift in Sources */,
-				00F97088206331DA00AC4C9D /* HomeTableViewController.swift in Sources */,
+				00DE043E226CBEC30078AD66 /* HomeTableViewController.swift in Sources */,
+				00DE0441226CBEC30078AD66 /* ProfileTableViewController.swift in Sources */,
+				00DE043F226CBEC30078AD66 /* DiscoverTableViewController.swift in Sources */,
+				00DE0442226CBEC30078AD66 /* MainViewController.swift in Sources */,
+				00DE0440226CBEC30078AD66 /* MessageTableViewController.swift in Sources */,
 				00F9705820617BB700AC4C9D /* AppDelegate.swift in Sources */,
-				00F9709A2063F2E300AC4C9D /* MainViewController.swift in Sources */,
-				00F9708A2063320900AC4C9D /* MessageTableViewController.swift in Sources */,
-				00F9708C2063322E00AC4C9D /* DiscoverTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +416,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -420,6 +424,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -470,6 +475,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -477,6 +483,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -516,7 +523,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.coldjarflying.CJFWeibo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -531,7 +538,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.coldjarflying.CJFWeibo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -546,7 +553,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.coldjarflying.CJFWeiboTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CJFWeibo.app/CJFWeibo";
 			};
@@ -562,7 +569,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.coldjarflying.CJFWeiboTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CJFWeibo.app/CJFWeibo";
 			};
@@ -577,7 +584,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.coldjarflying.CJFWeiboUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = CJFWeibo;
 			};
@@ -592,7 +599,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.coldjarflying.CJFWeiboUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = CJFWeibo;
 			};

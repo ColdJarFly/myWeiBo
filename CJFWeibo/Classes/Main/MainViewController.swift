@@ -15,7 +15,7 @@ class MainViewController: UITabBarController {
 
         // Do any additional setup after loading the view.
         let childView = UIViewController()
-        addChildViewController(childView)
+        addChild(childView)
         childView.view.backgroundColor = UIColor.blue
         //self.view.backgroundColor = UIColor.cyan
     }
@@ -23,14 +23,14 @@ class MainViewController: UITabBarController {
         print("hello")
     }
     
-    override func addChildViewController(_ childController: UIViewController) {
+    override func addChild(_ childController: UIViewController) {
         tabBar.tintColor = UIColor.orange
         let vc = HomeTableViewController()
         vc.title = "Weibo"
         vc.tabBarItem.image = UIImage.init(named: "tabbar_home")
         vc.tabBarItem.selectedImage = UIImage.init(named: "tabbr_home_highlighted")
         let nav = UINavigationController.init(rootViewController: vc)
-        addChildViewController(nav)
+        addChild(nav)
         
     }
     
